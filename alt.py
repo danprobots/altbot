@@ -9,14 +9,15 @@ import time
 import requests
 import asyncio
 import os
+import base64
 
 # ------------------------------------------------------------------------------
 # 🤖 AltBot V1.0 | @danielprofessional
 # ⚠️ CONFIGURATION
 # ------------------------------------------------------------------------------
 bot_token = "" # your token goes here
-api_id = 'API_ID_HERE' # check this on how to get them: https://core.telegram.org/api/obtaining_api_id
-api_hash = 'API_HASH_HERE' # if you wont fill in these info, your bot CANNOT change its pfp on its own.
+api_id = "API_ID_HERE" # check this on how to get them: https://core.telegram.org/api/obtaining_api_id
+api_hash = "API_HASH_HERE" # if you wont fill in these info, your bot CANNOT change its pfp on its own.
 alt_owner_username = "yourusernamehere" # replace with the ALT owner's username
 start_message = """
 Hi there, i'm an awesome alt!
@@ -83,7 +84,7 @@ def change_bot_name(token, name):
     url = f"https://api.telegram.org/bot{token}/setMyName"
     data = {"name": name}
     response = requests.post(url, json=data)
-    return response.json()['ok']
+    return response.json()["ok"]
 
 def get_bot_username(token):
     url = f"https://api.telegram.org/bot{token}/getMe"
