@@ -1,9 +1,9 @@
 # AltBot
 A simple project that turns your bot into (kind of) an account.
 
-⚠️ If you came here to setup your alt and don't want to host it yourself, please **type */clone* into [our Telegram bot](https://t.me/SamyarT2bot)** to get it running fast and simple.
+⚠️ If you came here to setup your alt and don't want to host it yourself, please **type /clone into [our Telegram bot](https://t.me/SamyarT2bot)** to get it running fast and simple.
 
-ℹ️ *Note: This version doesn't support cloning.*
+ℹ️ *Note: This version doesn't support cloning. To use cloning, you need to use the method above.*
 
 # Installation
 Let's clone the repository.
