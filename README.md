@@ -5,8 +5,14 @@ A simple project that turns your bot into (kind of) an account.
 ℹ️ *Note: This version doesn't support cloning.*
 
 # Installation
-First, let's install the dependencies.
-```pip install -r requirements.txt```
+Let's clone the repository.
+```
+git clone https://github.com/danprobots/altbot.git
+```
+Now, let's install the dependencies.
+```
+pip install -r requirements.txt
+```
 Then, configure the variables in the script.
 ```
 bot_token = "" # your token goes here
@@ -18,7 +24,9 @@ Hi there, i'm an awesome alt!
 """ # replace this with WHAT the bot should say on /start (supports multi-lines)
 ```
 Finally, run the bot.
-```python alt.py```
+```
+python alt.py
+```
 
 # Contact me
 You can contact me [on Telegram](https://t.me/danielprofessional) or via my email.
