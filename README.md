@@ -32,4 +32,4 @@ python alt.py
 # Contact me
 You can contact me [on Telegram](https://t.me/danielprofessional) or via my email.
 
-⭐ Make sure to give this project a star for more updates!
+⭐ Make sure to **give this project a star** for more updates!
